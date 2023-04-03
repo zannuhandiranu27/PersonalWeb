@@ -19,7 +19,7 @@ a{
 	background-size: 1000px;
 	background-position: right;
 	background-repeat: no-repeat;
-	background-image: url("img/bewooookz.jpg");
+	background-image: url("img/bew.png");
 	background-color:#6c707c;
 }
 nav{
@@ -257,6 +257,12 @@ nav{
 	background-color: #FFFFFF;
 	transition: all ease 0.3s;
 }
+.card{
+	
+		border: 3px solid rgb(92, 89, 89); /* atur ketebalan, jenis, dan warna border sesuai kebutuhan */
+		border-radius: 10px; /* atur radius border sesuai kebutuhan */
+	  
+}
  
   /* Make sure that padding behaves as expected */
   * {box-sizing:border-box}
@@ -312,4 +318,52 @@ nav{
 	font-size: 1.2rem;
 	color:rgba(255,255,255,0.90);
 	
+}
+
+
+#contact{
+	width:100%;
+	height: 100vh;
+	background-color:#6c707c;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 50px 5% 0px 5%;
+	position: relative;
+}
+
+.contact-text{
+	font-family: calibri;
+	width: 50%;
+}
+.contact-text h1{
+	font-size: 5rem;
+	color:#17d1ac;
+}
+.contact-text h2{
+	font-size: 3rem;
+	color:#FFFFFF;
+	font-weight: 400;
+}
+.contact-text h1,h2{
+	margin: 0px;
+	padding: 0px;
+}
+.contact-text p{
+	font-size: 1.2rem;
+	color:rgba(255,255,255,0.90);
+	
+}
+.contact-text button{
+	width: 180px;
+	height: 40px;
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	background-color:#17d1ac;
+}
+.contact-text button:hover{
+	background-color: #FFFFFF;
+	transition: all ease 0.3s;
 }
