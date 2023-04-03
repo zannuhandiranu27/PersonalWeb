@@ -259,9 +259,8 @@ nav{
 }
 .card{
 	
-		border: 3px solid rgb(92, 89, 89); /* atur ketebalan, jenis, dan warna border sesuai kebutuhan */
-		border-radius: 10px; /* atur radius border sesuai kebutuhan */
-	  
+		border: 3px solid rgb(92, 89, 89); 
+		border-radius: 10px; 
 }
  
   /* Make sure that padding behaves as expected */
@@ -269,8 +268,10 @@ nav{
 
   /* Container for skill bars */
   .container {
-	width: 50%; /* Full width */
+	width: 25%; /* Full width */
 	background-color: #6c707c; /* Grey background */
+	border: 2px solid rgb(232, 228, 228); 
+		border-radius: 10px; 
   }
   
   .skills {
@@ -314,7 +315,7 @@ nav{
 	margin: 0px;
 	padding: 0px;
 }
-.skills-text p{
+.skills-text h3{
 	font-size: 1.2rem;
 	color:rgba(255,255,255,0.90);
 	
