@@ -368,3 +368,60 @@ nav{
 	background-color: #FFFFFF;
 	transition: all ease 0.3s;
 }
+
+.social-menu {
+	display: flex;
+	list-style-type: none;
+}
+ 
+.social-menu i {
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	font-size: 25px;
+	margin-right: 10px;
+	transition: all 0.2s ease-in-out;
+	display: flex;
+	justify-content: center;
+}
+
+.social-menu i:before {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+.social-menu li{
+	margin: 0 10px;
+}
+.social-menu a {
+	text-decoration: none;
+}
+
+.fa-facebook {
+	background:#3b5998
+} 
+
+.fa-discord {
+	background:#007bb6
+}
+
+.fa-twitter {
+	background:#00aced
+}
+
+.fa-instagram {
+	background:#3f729b
+}
+
+.fa-youtube {
+	background:#c4302b
+}
+
+.fa-whatsapp {
+	background:#b1b4bf
+}
+.social-menu i:hover {
+	opacity: .7;
+	border-radius: 0;
+}
