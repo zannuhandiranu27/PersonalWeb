@@ -66,9 +66,9 @@ nav{
 	}
   }
   .btn-outline-primary:hover {
-	background-color: #007bff;
-	color: #fff;
-  }
+  background-color: #007bff;
+  color: #fff;
+}
 .wa-icon {
 	width: 80px;
 	height: 80px;
