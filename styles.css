@@ -1,5 +1,8 @@
+body{
+	background-image: url('img/bg.jpg');
+}
 nav{
-	background-color: #FFFFFF;
+	background-image: url('img/bg\ nav.jpg');
 	transition: all ease 0.3s;
 }
 .wok-profile {
@@ -11,7 +14,61 @@ nav{
 	filter: grayscale(0%);
 	transform: scale(1.01);
 }
-
+.card {
+	border: 3px solid #ccc;
+	transition: border-color 0.5s ease;
+  }
+  
+  .card:hover {
+	border-color: blue;
+  }
+  .highlight {
+	color: #808080;
+	transition: color 0.5s ease;
+  }
+  
+  .highlight:hover {
+	color: blue;
+  }
+  .progress-bar {
+	animation: animate-progress 4s ease-in-out infinite;
+  }
+  .card:hover {
+	transform: translateY(-10px);
+  }
+  
+  .card {
+	transition: transform 0.2s ease-in-out;
+  }
+  
+  @keyframes animate-progress {
+	0% {
+	  transform: translateX(-100%);
+	}
+	50% {
+	  transform: translateX(0%);
+	}
+	100% {
+	  transform: translateX(100%);
+	}
+  }
+  .card {
+	animation-name: slide-in;
+	animation-duration: 1s;
+  }
+  
+  @keyframes slide-in {
+	from {
+	  transform: translateX(-100%);
+	}
+	to {
+	  transform: translateX(0%);
+	}
+  }
+  .btn-outline-primary:hover {
+	background-color: #007bff;
+	color: #fff;
+  }
 .wa-icon {
 	width: 80px;
 	height: 80px;
